@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍽️ DineDesk – Restaurant Management Platform
 
-## Getting Started
+A modern and responsive restaurant management web application designed to simplify food ordering, restaurant operations, and order management.
 
-First, run the development server:
+## 📌 Project Overview
+
+DineDesk is a full-stack restaurant management platform that allows customers to explore food menus, add dishes to their cart, place orders, and make reservations. It also provides an admin dashboard to manage restaurant operations efficiently.
+
+## ✨ Features
+
+### 👨‍🍳 Customer Features
+- Browse food items and categories.
+- Search for favourite dishes.
+- Add dishes to the shopping cart.
+- Increase or decrease item quantities.
+- View total order amount.
+- Place food orders through checkout.
+- Choose delivery, pickup, or dine-in options.
+- Make restaurant reservations.
+
+### 🔐 Admin Features
+- Secure admin login.
+- Admin dashboard.
+- Manage food menu items.
+- View and manage customer orders.
+- Update order statuses.
+- Manage table reservations.
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Next.js | Frontend and backend framework |
+| React.js | User interface |
+| TypeScript | Type-safe development |
+| Tailwind CSS | Styling and responsive design |
+| Prisma ORM | Database management |
+| PostgreSQL | Database |
+
+## 📂 Project Structure
+
+```text
+COFSOFT_TASKNO.2/
+│
+├── prisma/
+│   └── schema.prisma
+│
+├── public/
+│
+├── src/
+│   ├── app/
+│   │   ├── admin/
+│   │   ├── api/
+│   │   └── page.tsx
+│   │
+│   └── lib/
+│
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd AI_Job_Portal_Resume_Matching_Project
+```
+
+Replace the folder name with your actual DineDesk project folder name if different.
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure environment variables
+
+Create a `.env` file and configure your PostgreSQL database connection.
+
+### 5. Run Prisma migrations
+
+```bash
+npx prisma migrate dev
+```
+
+### 6. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Project Objective
 
-## Learn More
+The main objective of DineDesk is to provide a user-friendly restaurant management solution that simplifies food ordering and helps administrators manage restaurant operations through a centralized platform.
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Future Enhancements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Online payment gateway integration.
+- Real-time order tracking.
+- Customer registration and login.
+- Email and SMS order notifications.
+- Advanced sales and revenue analytics.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👩‍💻 Developer
 
-## Deploy on Vercel
+**Project Name:** DineDesk
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Repository:** COFSOFT_TASKNO.2
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Project Type:** Full-Stack Web Development
+
+**Purpose:** Portfolio / Internship Project
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository!
